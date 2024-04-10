@@ -32,8 +32,89 @@ in your computer.
 ### Getting Started
 
 **Clone Repository**
+
 Using git clone, clone the remote repository into your computer.
 
 ```console
 git clone <repository URL>
+```
+
+**Add Files**
+
+Once you begin working on the project and start to add your own files or work to it, you can stage your changes by using add. You can add individual files with:
+
+```console
+git add <filename>
+```
+
+You can also add all the files at once instead of adding them individually by typing:
+
+```console
+git add .
+```
+
+You can then use:
+
+```console
+git status
+```
+
+to see all the files that are staged after using add.
+
+**Commit Your Changes**
+
+You can now save changes made to the files that you added before. Commiting changes allows you add a message describing the modifications made.
+
+```console
+git commit -m "<message with info about changes>"
+```
+
+**Push to GitHub Repo**
+
+Now you can push the changes to the online repository.
+
+```console
+git push origin <branch name>
+```
+
+Example:
+
+```console
+git push origin main
+```
+
+**Pulling**
+• After a pull request passes and everything is merged it’s a good idea
+pull all the new information into your local repository with:
+
+```console
+git pull origin main
+```
+
+### Branching
+
+• We use branches to be able to work in a particular instance of the
+main branch in order to prevent disruptions on your main branch, and
+also to not create conflicts with your teammates work.
+
+• You can check which branch you are currently on with:
+
+```console
+git branch
+```
+
+**Create a Branch**
+• To create a branch we use the checkout command, we also use it to
+be switching between branches
+
+• To create a branch use the following:
+
+```console
+git checkout -b nameofbranch
+```
+
+• To switch between branches:
+
+```console
+git checkout nameofbranch
 ```
