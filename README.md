@@ -84,6 +84,7 @@ git push origin main
 ```
 
 **Pulling**
+
 • After a pull request passes and everything is merged it’s a good idea
 pull all the new information into your local repository with:
 
