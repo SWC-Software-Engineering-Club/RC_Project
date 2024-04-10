@@ -12,5 +12,28 @@ Beyond technical skills, our project offers an opportunity to hone essential sof
 
 • Open-source version control system that manages changes to files
 and other data.
+
 • Not to be confused with GitHub. GitHub is an Internet hosting service
 for software development and version control using Git.
+
+### Common Git Commands
+
+• Clone: Bring a repository hosted somewhere like Github into a folder
+in your computer.
+
+• Add: Track your files and changes of a file in Git.
+
+• Commit: Save your files to Git.
+
+• Push. Upload Git commits to a remote repository, like Github.
+
+• Pull. Download changes from remote repo to your local computer.
+
+### Getting Started
+
+**Clone Repository**
+Using git clone, clone the remote repository into your computer.
+
+```console
+git clone <repository URL>
+```
