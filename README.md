@@ -7,3 +7,10 @@ Our project aims to immerse ourselves in the realm of AI/ML by applying these cu
 Beyond technical skills, our project offers an opportunity to hone essential soft skills such as collaboration and leadership within a team setting. Through collaborative efforts, we aim to leverage each team member's strengths to overcome challenges and achieve our shared goal of successfully completing the RC project. This endeavor serves as a platform for us to take initiative, demonstrate leadership, and cultivate expertise in the rapidly evolving field of ML.
 
 ## Git
+
+### What Is Git?
+
+• Open-source version control system that manages changes to files
+and other data.
+• Not to be confused with GitHub. GitHub is an Internet hosting service
+for software development and version control using Git.
