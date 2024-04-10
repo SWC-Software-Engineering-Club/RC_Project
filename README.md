@@ -161,3 +161,41 @@ $ source venv/bin/activate
 Once activated, you'll see the name of the virtual environment in your command prompt, indicating that you're now working within the virtual environment.
 
 Remember to activate the virtual environment every time you start working on your project to ensure that you're using the correct dependencies.
+
+## Managing Project Dependencies with requirements.txt
+
+The `requirements.txt` file is commonly used in Python projects to specify the dependencies required for the project to run. It lists all the Python packages along with their versions that are necessary for the project.
+
+### Importance of requirements.txt
+
+1. **Reproducibility**: The `requirements.txt` file ensures that everyone working on the project can easily install the same set of dependencies, leading to consistent environments across different systems.
+
+2. **Dependency Management**: It simplifies dependency management by providing a centralized location to track and manage project dependencies.
+
+### Installing Packages from requirements.txt
+
+To install the packages listed in the `requirements.txt` file, you can use the following command:
+
+```console
+$ pip install -r requirements.txt
+```
+
+This command reads the requirements.txt file and installs all the listed packages along with their specified versions.
+
+### Adding Packages to requirements.txt
+
+If you need to add new packages to the project, you can do so by installing the packages using pip and then updating the requirements.txt file. Here's how you can add a package to requirements.txt:
+
+Install the package using pip:
+
+```console
+$ pip install <package-name>
+```
+
+After installing the package, update the `requirements.txt` file to include the new package and its version:
+
+```console
+$ pip freeze > requirements.txt
+```
+
+By maintaining an up-to-date requirements.txt file, you ensure that all project collaborators can easily replicate the project environment and dependencies.
